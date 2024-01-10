@@ -1,0 +1,33 @@
+h1{
+    margin-bottom: 70px;
+}
+#dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.metrics-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Updated to evenly distribute the cards */
+    margin-bottom: 20px;
+}
+
+.metric-card {
+    background-color: #fff;
+    border-left: solid 4px green;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 23%; /* Adjusted the width to fit four cards in each line with some spacing */
+}
+
+.chart-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}

@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(39, 38, 38);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#login-container {
+    background-color: rgb(23, 22, 22);
+    padding: 60px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 25%;
+    width: 400px;
+}
+
+#logo {
+    /* height: 100px; */
+    margin-bottom: 20px;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+#login-btn {
+    background-color: #4caf50;
+    color: #fff;
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#forgot-password {
+    margin-top: 10px;
+    text-decoration: underline;
+    color: #4285f4;
+    cursor: pointer;
+}

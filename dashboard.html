@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard-style.css">
+    
+</head>
+<body>
+    <div id="dashboard-container">
+        <h1>Welcome to the Dashboard</h1> 
+        <h2>Company Metrics</h2> 
+        <div class="metrics-container">
+            <div class="metric-card">
+                <h2>Total Revenue</h2>
+                <p>$406,411.29</p>
+            </div>
+            <div class="metric-card">
+                <h2>Total Jobs Avg</h2>
+                <p>$602</p>
+            </div>
+            <div class="metric-card">
+                <h2>Tickets Created</h2>
+                <p>655</p>
+            </div>
+            <div class="metric-card">
+                <h2>Tickets Scheduled</h2>
+                <p>735</p>
+            </div>
+        </div>
+
+        <div class="metrics-container">
+            <div class="metric-card">
+                <h2>Outstanding Amount</h2>
+                <p>$110,448.8</p>
+            </div>
+            <div class="metric-card">
+                <h2>Memberships Sold</h2>
+                <p>105</p>
+            </div>
+            <div class="metric-card">
+                <h2>Jobs Completed</h2>
+                <p>436</p>
+            </div>
+            <div class="metric-card">
+                <h2>Total Cancelled</h2>
+                <p>65</p>
+            </div>
+        </div>
+
+        <div class="chart-container">
+            <h2>Revenue By Job Location</h2>
+            <canvas id="jobLocationChart"></canvas>
+        </div>
+
+        <div class="chart-container">
+            <h2>Revenue By Job Type</h2>
+            <canvas id="jobTypeChart"></canvas>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0"></script>
+    <script src="dashboard-script.js"></script>
+</body>
+</html>
